@@ -32,7 +32,18 @@ const Hero = () => {
               <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
             </div>
           </div>
-          {/* @todo Hamburger Button */}
+          {/*  Hamburger Button */}
+          <div className="md:hidden">
+            <button
+              id="menu-btn"
+              type="button"
+              className="open z-40 block hamburger md:hidden focus:outline-none"
+            >
+              <span className="hamburger-top"></span>
+              <span className="hamburger-middle"></span>
+              <span className="hamburger-bottom"></span>
+            </button>
+          </div>
         </nav>
         {/* @todo Mobile Menu */}
 
