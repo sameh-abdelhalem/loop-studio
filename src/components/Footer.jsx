@@ -76,7 +76,7 @@ const Footer = () => {
             </div>
             {/* copy */}
             <div className="font-bold">
-              &copy; 2022 Loobstudios. All Rights Reserved
+              &copy; 2022 Loopstudios. All Rights Reserved
             </div>
           </div>
         </div>
